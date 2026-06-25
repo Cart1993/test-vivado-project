@@ -1,0 +1,27 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-258,-292",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_CLK -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port port-id_tlast -pg 1 -lvl 3 -x 570 -y 60 -defaultsOSRD
+preplace portBus tvalid -pg 1 -lvl 3 -x 570 -y 140 -defaultsOSRD
+preplace portBus tdata -pg 1 -lvl 3 -x 570 -y 210 -defaultsOSRD
+preplace portBus GPO -pg 1 -lvl 0 -x 0 -y 110 -defaultsOSRD
+preplace portBus tready -pg 1 -lvl 0 -x 0 -y 140 -defaultsOSRD
+preplace inst data_counter -pg 1 -lvl 2 -x 450 -y 210 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 1 -x 190 -y 130 -defaultsOSRD
+preplace inst tlast_counter -pg 1 -lvl 2 -x 450 -y 70 -defaultsOSRD
+preplace netloc GPO_1 1 0 1 40J 110n
+preplace netloc c_counter_binary_0_THRESH0 1 2 1 NJ 60
+preplace netloc data_counter_Q 1 2 1 NJ 210
+preplace netloc tready_1 1 0 1 NJ 140
+preplace netloc util_vector_logic_0_Res 1 1 2 360 140 NJ
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 2 NJ 60 350
+levelinfo -pg 1 0 190 450 570
+pagesize -pg 1 -db -bbox -sgen -130 0 710 280
+"
+}
+0
