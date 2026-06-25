@@ -1,0 +1,24 @@
+
+# =========================================================
+# GITIGNORE GLOBAL AGNOSTIC
+# =========================================================
+
+# 1. TOTAL BLOCK (Defensive)
+*
+
+# 2. ALLOWED DIRECTORIES (To git navigation)
+!*/
+
+# Authorize vivado files to regenerate the project
+!**/*.srcs/*
+!**/*.xpr
+!**/*.xsa
+
+# ---------------------------------------------------------
+# GLOBAL EXCEPTIONS
+# ---------------------------------------------------------
+!.gitignore
+!README.md
+
+
+
