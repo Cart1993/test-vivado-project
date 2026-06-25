@@ -10,7 +10,7 @@
 !*/
 
 # Authorize vivado files to regenerate the project
-!**/*.srcs/*
+!**/*.srcs/**
 !**/*.xpr
 !**/*.xsa
 
